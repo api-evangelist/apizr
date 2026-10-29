@@ -64,5 +64,116 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-APIZR is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog) and added to the network as a stub for full-pipeline profiling.
-- https://apizr.fr/
+Apizr is a French iPaaS platform that leverages AI to boost integration workflows. It enables businesses to automate and synchronize data across applications with intelligent workflows, offering features like AI‑assisted mapping, real‑time monitoring, and scalable execution. The platform serves various industries, handling billions of euros in transaction volume and over 100 million executions per month, positioning itself as a modern, AI‑enhanced integration solution for enterprises seeking agile data connectivity.
+
+**Areas:** iPaaS · Artificial Intelligence · Integration · Automation · French
+
+## APIZR on APIs.io
+
+Everything profiled for APIZR is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/apizr/](https://apis.io/providers/apizr/)** — or go straight to one of the APIs or properties below.
+
+### APIs (8)
+
+- [APIZR API](https://apis.io/apis/apizr/apizr-api/) — API for APIZR integration platform, documented at the developer portal.
+- [APIZR APIZR API](https://apis.io/apis/apizr/apizr-apizr-api-api/) — The APIZR API API from APIZR — 2 operation(s) for apizr api.
+- [APIZR Events API](https://apis.io/apis/apizr/apizr-events-api/) — The Events API from APIZR — 1 operation(s) for events.
+- [APIZR Flux Test API](https://apis.io/apis/apizr/apizr-flux-test-api/) — The Flux Test API from APIZR — 1 operation(s) for flux test.
+- [APIZR OAuth API](https://apis.io/apis/apizr/apizr-oauth-api/) — The Oauth API from APIZR — 1 operation(s) for oauth.
+- [APIZR Order API](https://apis.io/apis/apizr/apizr-order-api/) — The Order API from APIZR — 1 operation(s) for order.
+- [APIZR Orders API](https://apis.io/apis/apizr/apizr-orders-api/) — The Orders API from APIZR — 4 operation(s) for orders.
+- [APIZR Webhooks API](https://apis.io/apis/apizr/apizr-webhooks-api/) — The Webhooks API from APIZR — 3 operation(s) for webhooks.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (3)
+
+The data models the API reads and writes.
+
+- [GetApiApiidResponse](https://apis.io/schemas/apizr/apizr-get-api-apiid-response/)
+- [PostFluxTestRequest](https://apis.io/schemas/apizr/apizr-post-flux-test-request/)
+- [PostOauthTokenRequest](https://apis.io/schemas/apizr/apizr-post-oauth-token-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Apizr Context](https://apis.io/jsonld/apizr/apizr-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [APIZR API Rules](https://apis.io/rules/apizr/apizr-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Apizr Authentication](https://apis.io/security/apizr/apizr-authentication/)
+- [Apizr Domain Security](https://apis.io/security/apizr/apizr-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://apizr.fr/)
+- [Documentation](https://docs.ecosystem.apizr.io/docs/introduction)
+- [Getting started](https://docs.ecosystem.apizr.io/docs/getting-started/overview)
+- [API reference](https://api.management.ecosystem.apizr.io/v1/oauth/authorize?client_id=7c00c7cb-65db-4521-80c7-cb65db6521c7&redirect_uri=https%3A%2F%2Fecosystem.apizr.io%2Fhome)
+- [Blog](https://apizr.fr/blog)
+- [GitHub](https://github.com/Apizr)
+
+## API Evangelist rating
+
+**Kin Score 27.5** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 69.6 |
+| Contract quality | 21.4 |
+| Contract governance | 22.0 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 52.4 |
+| Access clarity | 0.0 |
+
+**Agent readiness 15.5** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 15.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/apizr/](https://apis.io/providers/apizr/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for APIZR: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/apizr/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
